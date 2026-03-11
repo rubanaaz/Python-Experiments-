@@ -1,0 +1,28 @@
+Aim:
+To understand how tuples work in Python and perform some basic operations on them.
+
+Algorithm:
+Start the program.
+Create a tuple with some elements.
+Display the tuple.
+Find the length of the tuple.
+Access and display an element using its index.
+Count how many times an element appears in the tuple.
+Find the index position of a specific element.
+Display all the results.
+End the program.
+
+Code:
+t = (10, 20, 30, 20, 40)
+print("Tuple:", t)
+print("Length of tuple:", len(t))
+print("Element at index 2:", t[2])
+print("Count of 20:", t.count(20))
+print("Index of 30:", t.index(30))
+
+Output:
+Tuple: (10, 20, 30, 20, 40)
+Length of tuple: 5
+Element at index 2: 30
+Count of 20: 2
+Index of 30: 2
