@@ -1,0 +1,34 @@
+Aim:
+To learn how to use lists and perform different operations on lists in Python.
+
+Algorithm:
+Start the program.
+Create a list with some numbers.
+Display the original list.
+Add a new element to the list.
+Insert an element at a specific position.
+Remove an element from the list.
+Display the length of the list.
+Sort the list and display it.
+Stop the program.
+
+Code:
+numbers = [10, 20, 30, 40]
+print("Original list:", numbers)
+numbers.append(50)
+print("After adding element:", numbers)
+numbers.insert(2, 25)
+print("After inserting element:", numbers)
+numbers.remove(30)
+print("After removing element:", numbers)
+print("Length of list:", len(numbers))
+numbers.sort()
+print("Sorted list:", numbers)
+
+Output:
+Original list: [10, 20, 30, 40]
+After adding element: [10, 20, 30, 40, 50]
+After inserting element: [10, 20, 25, 30, 40, 50]
+After removing element: [10, 20, 25, 40, 50]
+Length of list: 5
+Sorted list: [10, 20, 25, 40, 50]
