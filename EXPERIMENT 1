@@ -1,0 +1,63 @@
+Aim :
+To understand and demonstrate different data types and operators used in Python programming.
+
+Algorithm:
+Start the program.
+Create variables using different data types like integer, float, string, and boolean.
+Display the values of these variables.
+Perform arithmetic, comparison, and logical operations.
+Print the results.
+Stop the program.
+
+Code:
+a = 10
+b = 5.5
+c = "Hello"
+d = True
+
+print("Integer value:", a)
+print("Float value:", b)
+print("String value:", c)
+print("Boolean value:", d)
+
+print("\nArithmetic Operators")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+print("\nComparison Operators")
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a == b:", a == b)
+
+print("\nLogical Operators")
+x = True
+y = False
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)
+
+
+Output:
+Integer value: 10
+Float value: 5.5
+String value: Hello
+Boolean value: True
+
+Arithmetic Operators
+Addition: 15.5
+Subtraction: 4.5
+Multiplication: 55.0
+Division: 1.8181818181818181
+
+Comparison Operators
+a > b: True
+a < b: False
+a == b: False
+
+Logical Operators
+x and y: False
+x or y: True
+not x: False
+
